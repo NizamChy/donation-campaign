@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const SingleCard = ({card}) => {
 
   const {id,picture,title,category,category_bg_color,card_bg_color,text_color,description,price} = card || {}
@@ -14,6 +16,7 @@ const SingleCard = ({card}) => {
 
 
   return (
+    <Link to={`/cards/${id}`}>
     <div>
       <div className="relative flex max-w-[17rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
         <div className="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
@@ -34,6 +37,7 @@ const SingleCard = ({card}) => {
 
       </div>
     </div>
+    </Link>
   );
 };
 
