@@ -1,0 +1,139 @@
+[
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/1sxFBGs/health2.png",
+      "title": "Clean Water Initiative",
+      "category": "Health",
+      "category_bg_color": "#0052FF33",
+      "card_bg_color": "#0052FF26",
+      "text_color": "#0052FF",
+      "description": "Help provide clean and safe drinking water to communities in need.",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/Z86Kf8F/Education.png",
+      "title": "Education for All",
+      "category": "Education",
+      "category_bg_color": "#FF444933",
+      "card_bg_color": "#FF444926",
+      "text_color": "#FF444A",
+      "description": "Support quality education for underprivileged children around the world.",
+      "price": 30
+    },
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/LrtHHh3/Clothing.png",
+      "title": "Clothing Drive",
+      "category": "Clothing",
+      "category_bg_color": "#79C23F33",
+      "card_bg_color": "#79C23F26",
+      "text_color": "#79C23F",
+      "description": "Donate clothing to help those in need stay warm during the winter.",
+      "price": 20
+    },
+    {
+      "id": 4,
+      "picture": "https://i.ibb.co/HTd5PVV/Food.png",
+      "title": "Hunger Relief Program",
+      "category": "Food",
+      "category_bg_color": "#F8714733",
+      "card_bg_color": "#F8714726",
+      "text_color": "#F87147",
+      "description": "Join us in the fight against hunger by providing meals to those in need.",
+      "price": 40
+    },
+    {
+      "id": 5,
+      "picture": "https://i.ibb.co/0nPD1Pk/food2.png",
+      "title": "Nutrition for Children",
+      "category": "Food",
+      "category_bg_color": "#F8714733",
+      "card_bg_color": "#F8714726",
+      "text_color": "#F87147",
+      "description": "Ensure that children have access to nutritious meals for their growth and development.",
+      "price": 35
+    },
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/jJw2dz6/clothing2.png",
+      "title": "Warm Cloth for Homeless",
+      "category": "Clothing",
+      "category_bg_color": "#79C23F33",
+      "card_bg_color": "#79C23F26",
+      "text_color": "#79C23F",
+      "description": "Provide warm clothing to homeless individuals during the winter season.",
+      "price": 30
+    },
+
+    {
+      "id": 7,
+      "picture": "https://i.ibb.co/FB6X3Dk/education2.png",
+      "title": "School Supplies for Kids",
+      "category": "Education",
+      "category_bg_color": "#FF444933",
+      "card_bg_color": "#FF444926",
+      "text_color": "#FF444A",
+      "description": "Provide essential school supplies to children from disadvantaged backgrounds.",
+      "price": 25
+    },
+    {
+      "id": 8,
+      "picture": "https://i.ibb.co/QXV0Yfh/health3.png",
+      "title": "Medical Aid for Refugees",
+      "category": "Health",
+      "category_bg_color": "#0052FF33",
+      "card_bg_color": "#0052FF26",
+      "text_color": "#0052FF",
+      "description": "Support medical care and supplies for refugees in crisis zones.",
+      "price": 60
+    },
+    {
+      "id": 9,
+      "picture": "https://i.ibb.co/tZ9Jw5N/education3.png",
+      "title": "Women Education",
+      "category": "Education",
+      "category_bg_color": "#FF444933",
+      "card_bg_color": "#FF444926",
+      "text_color": "#FF444A",
+      "description": "Help women and girls access education and empower themselves.",
+      "price": 40
+    },
+
+    {
+      "id": 10,
+      "picture": "https://i.ibb.co/VSKzrLB/healt4.png",
+      "title": "Healthcare Access",
+      "category": "Health",
+      "category_bg_color": "#0052FF33",
+      "card_bg_color": "#0052FF26",
+      "text_color": "#0052FF",
+      "description": "Support initiatives to provide healthcare access to underserved communities.",
+      "price": 70
+    },
+
+
+    {
+      "id": 11,
+      "picture": "https://i.ibb.co/m4PWMkT/food3.png",
+      "title": "Food Bank Expansion",
+      "category": "Food",
+      "category_bg_color": "#F8714733",
+      "card_bg_color": "#F8714726",
+      "text_color": "#F87147",
+      "description": "Support the expansion of food banks to serve more families in need.",
+      "price": 50
+    },
+    {
+      "id": 12,
+      "picture": "https://i.ibb.co/vVTrfV2/Health.png",
+      "title": "Mental Health Awareness",
+      "category": "Health",
+      "category_bg_color": "#0052FF33",
+      "card_bg_color": "#0052FF26",
+      "text_color": "#0052FF",
+      "description": "Raise awareness and support programs for mental health and well-being.",
+      "price": 45
+    }
+  ]
+
