@@ -3,9 +3,7 @@ import DonationCard from "./DonationCard";
 
 const Donation = () => {
   const [donation, setDonation] = useState([]);
-
   const [noFound, setNoFound] = useState(false);
-
   const [isShow, setIsShow] = useState(false);
 
   useEffect(() => {
@@ -21,7 +19,7 @@ const Donation = () => {
   return (
     <div>
       {noFound ? (
-        <p className="h-[60vh] flex justify-center items-center text-3xl font-bold">
+        <p className="h-[60vh] flex justify-center items-center md:text-2xl lg:text-3xl font-bold">
           {noFound}
         </p>
       ) : (
@@ -38,7 +36,7 @@ const Donation = () => {
                   ))}
           </div>
 
-          {!isShow && (
+          {donation.length >= 5 && !isShow && (
             <button
               onClick={() => setIsShow(!isShow)}
               className="btn btn-success my-6 px-5 block mx-auto text-xl capitalize hover:bg-green-500 hover:border-4"

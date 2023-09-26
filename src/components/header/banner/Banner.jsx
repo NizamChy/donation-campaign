@@ -1,9 +1,5 @@
 const Banner = () => {
   return (
-    // <div className="h-[70vh] bg-green-400">
-
-    // </div>
-
     <div className="">
       <div
         className="hero h-[70vh]"
@@ -16,7 +12,7 @@ const Banner = () => {
 
         <div className="hero-content text-center text-neutral-content">
           <div className="">
-            <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-black">
+            <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-teal-900 font-mono">
               I Grow By Helping People In Need
             </h1>
 
