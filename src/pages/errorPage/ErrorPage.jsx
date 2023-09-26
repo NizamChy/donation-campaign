@@ -9,7 +9,7 @@ const ErrorPage = () => {
       </div>
       <div><h4 className="text-red-400 text-4xl text-center p-8">Oopps! Page not found. Something went wrong!</h4></div>
       
-      <div><Link to="/"><button className="btn btn-error">Double Click to Go Home</button></Link></div>
+      <div><Link to="/"><button className="btn btn-error">Go Home</button></Link></div>
       
     </div>
   );

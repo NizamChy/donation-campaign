@@ -1,3 +1,5 @@
+import swal from "sweetalert";
+
 const CardDesign = ({ card }) => {
   const {
     id,
@@ -11,12 +13,34 @@ const CardDesign = ({ card }) => {
     price,
   } = card || {};
 
+  const handleAddToDonation = () => {
+    const addedDonationArray = [];
+
+    const donationItems = JSON.parse(localStorage.getItem("donation"));
+
+    if (!donationItems) {
+      addedDonationArray.push(card);
+      localStorage.setItem("donation", JSON.stringify(addedDonationArray));
+      swal("Donation successful.", "Thank you!", "success");
+    } else {
+      const isExist = donationItems.find((card) => card.id == id);
+
+      if (!isExist) {
+        addedDonationArray.push(...donationItems, card);
+        localStorage.setItem("donation", JSON.stringify(addedDonationArray));
+        swal("Donation successful.", "Thank you!", "success");
+      } else {
+        swal("Already donated!", "Thank you!", "info");
+      }
+    }
+  };
+
   const cardStyle = {
     backgroundColor: text_color,
   };
 
   return (
-    <div>
+    <div className="m-5">
       <div className="relative max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
         <div className="relative">
           <img
@@ -24,15 +48,16 @@ const CardDesign = ({ card }) => {
             src={picture}
             alt="Image Alt Text"
           />
-          {/* Add an overlay for the bottom 20% of the image */}
+          
           <div className="absolute inset-x-0 bottom-0 h-20 bg-gray-900 opacity-40 rounded-b-md"></div>
         </div>
-        <div className="absolute bottom-[31%] left-8">
+        <div className="absolute bottom-[31%] left-8 my-6 md:my-0">
           <button
-            className=" hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded"
+            onClick={handleAddToDonation}
+            className=" text-white font-semibold py-2 px-4 rounded"
             style={cardStyle}
           >
-            Click Me
+            Donate ${price}
           </button>
         </div>
         <div className="p-6">
