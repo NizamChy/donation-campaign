@@ -15,8 +15,6 @@ const CardDetails = () => {
     setCard(findCard);
   }, [id, cards]);
 
-  console.log(card);
-
   return <div>
 
     <CardDesign card={card}></CardDesign>
