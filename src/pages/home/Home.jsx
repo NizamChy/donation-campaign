@@ -3,6 +3,7 @@ import { useLoaderData } from "react-router-dom";
 import Cards from "../../components/cards/Cards";
 import Banner from "../../components/header/banner/Banner";
 import { useLocation } from "react-router-dom";
+import Footer from "../../layout/Footer";
 
 const Home = () => {
   const initialCards = useLoaderData();
@@ -36,6 +37,7 @@ const Home = () => {
     <div>
       <Banner onSearch={handleSearch} />
       <Cards cards={cardsToRender} />
+      <Footer></Footer>
     </div>
   );
 };
