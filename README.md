@@ -16,10 +16,9 @@ Donation Campaign offers the following key features:
    - Anyone can search for specific donation categories.
    
 2. **Donation Page**
-   - Displays donated items with details such as category, donor, and date.
+   - Displays donated items with details.
    - Allows users to contribute by adding their donations.
    
 3. **Statistics Page**
-   - Presents a visually appealing donation pie chart to showcase donation category distribution.
-   - Provides insights into the popularity of various donation categories.
+   - Presents a visually appealing donation pie chart to showcase donation category with respect to  total or remaining donation distribution.
 
