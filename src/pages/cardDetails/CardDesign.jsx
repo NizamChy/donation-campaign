@@ -1,17 +1,8 @@
 import swal from "sweetalert";
 
+// eslint-disable-next-line react/prop-types
 const CardDesign = ({ card }) => {
-  const {
-    id,
-    picture,
-    title,
-    category,
-    category_bg_color,
-    card_bg_color,
-    text_color,
-    description,
-    price,
-  } = card || {};
+  const { id, picture, title, text_color, description, price } = card || {};
 
   const handleAddToDonation = () => {
     const addedDonationArray = [];
@@ -23,6 +14,7 @@ const CardDesign = ({ card }) => {
       localStorage.setItem("donation", JSON.stringify(addedDonationArray));
       swal("Donation successful.", "Thank you!", "success");
     } else {
+      // eslint-disable-next-line react/prop-types
       const isExist = donationItems.find((card) => card.id == id);
 
       if (!isExist) {
@@ -48,7 +40,7 @@ const CardDesign = ({ card }) => {
             src={picture}
             alt="Image Alt Text"
           />
-          
+
           <div className="absolute inset-x-0 bottom-0 h-20 bg-gray-900 opacity-40 rounded-b-md"></div>
         </div>
         <div className="absolute bottom-[31%] left-8 my-6 md:my-0">

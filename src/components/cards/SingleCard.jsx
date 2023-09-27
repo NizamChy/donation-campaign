@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 
+// eslint-disable-next-line react/prop-types
 const SingleCard = ({card}) => {
 
-  const {id,picture,title,category,category_bg_color,card_bg_color,text_color,description,price} = card || {}
+  const {id,picture,title,category,category_bg_color,card_bg_color,text_color} = card || {}
 
   const cardStyle = {
     backgroundColor: card_bg_color,

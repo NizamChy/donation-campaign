@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
 
@@ -5,7 +6,10 @@ const Navbar = () => {
   return (
     <div>
       <nav className="grid gap-2 md:flex justify-between py-7 mx-14 md:mx-5">
+        <Link to={"/"}>
         <Logo></Logo>
+        </Link>
+        
         <ul className="flex gap-5 text-xl font-semibold">
 
           <li>
