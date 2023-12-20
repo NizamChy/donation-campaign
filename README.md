@@ -22,3 +22,10 @@ Donation Campaign offers the following key features:
 3. **Statistics Page**
    - Presents a visually appealing donation pie chart to showcase donation category with respect to  total or remaining donation distribution.
 
+## Technologies Used
+
+- React
+- ES6, JavaScript, Pre build API
+- React Router
+- Toast or sweet alert 
+- Dom manipulation
