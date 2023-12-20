@@ -39,7 +39,7 @@ const Banner = ({ onSearch }) => {
               />
               <button
                 onClick={handleSearch}
-                className="absolute inset-y-0 right-0 flex items-center px-4 text-white bg-[#FF444A] border border-gray-300 rounded-r-md hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="absolute inset-y-0 right-0 flex items-center px-4 text-white bg-[#FF444A] border border-gray-300 rounded-r-md hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-[#FF444A] focus:border-[#FF444A]"
               >
                 Search
               </button>
